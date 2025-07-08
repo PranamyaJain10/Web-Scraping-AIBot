@@ -2,7 +2,7 @@ name: Run main.py
 
 on:
   schedule:
-    - cron: '30 10 * * 0' # runs every day 
+    - cron: '* * * * *' # runs every day 
 
 jobs:
   build:
